@@ -116,6 +116,114 @@
       color: #444;
     }
 
+    /* Release Plan Section */
+    .release-plan {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+
+    .release-plan h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: 2rem;
+      letter-spacing: 0.6rem;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .release-plan .phase-subtitle {
+      text-align: center;
+      font-size: 0.7rem;
+      letter-spacing: 0.4rem;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 2.5rem;
+    }
+
+    .phase {
+      margin-bottom: 3rem;
+    }
+
+    .phase-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .phase-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: #333;
+      line-height: 1;
+    }
+
+    .phase-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      letter-spacing: 0.2rem;
+      color: #ccc;
+    }
+
+    .phase-date {
+      font-size: 0.65rem;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      color: #555;
+      margin-top: 0.2rem;
+    }
+
+    .checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .checklist li {
+      position: relative;
+      padding: 0.75rem 0 0.75rem 2rem;
+      border-bottom: 1px solid #151515;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #999;
+    }
+
+    .checklist li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 8px;
+      border: 1px solid #333;
+      border-radius: 50%;
+    }
+
+    .checklist li strong {
+      color: #ccc;
+      font-weight: 400;
+    }
+
+    .checklist .tip {
+      display: block;
+      margin-top: 0.3rem;
+      font-size: 0.75rem;
+      color: #555;
+      font-style: italic;
+    }
+
+    .section-divider {
+      width: 40px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #333, transparent);
+      margin: 3rem auto;
+    }
+
     /* Responsive */
     @media (max-width: 900px) {
       .videos {
@@ -183,6 +291,189 @@
         <div class="video-label">III</div>
       </div>
     </div>
+
+    <div class="section-divider"></div>
+
+    <!-- RELEASE PLAN -->
+    <section class="release-plan">
+      <h2>Release Plan</h2>
+      <p class="phase-subtitle">3 temas &mdash; estrategia de lanzamiento</p>
+
+      <!-- FASE 1: INSTAGRAM CLIPS -->
+      <div class="phase">
+        <div class="phase-header">
+          <div>
+            <div class="phase-number">01</div>
+          </div>
+          <div>
+            <div class="phase-title">Mini Clips &mdash; Instagram</div>
+            <div class="phase-date">Ahora &mdash; Semanas previas al release</div>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li>
+            <strong>Publicar los 3 clips como Reels, no como posts.</strong>
+            <span class="tip">Los Reels tienen mucho m&aacute;s alcance org&aacute;nico que los posts est&aacute;ticos o los videos en feed.</span>
+          </li>
+          <li>
+            <strong>Espaciar las publicaciones: 1 clip cada 2-3 d&iacute;as.</strong>
+            <span class="tip">No subir los 3 juntos. Generar expectativa y mantener el perfil activo durante m&aacute;s tiempo.</span>
+          </li>
+          <li>
+            <strong>Horario: publicar entre 18:00 y 21:00 hora local de tu audiencia principal.</strong>
+            <span class="tip">Revisar Instagram Insights para confirmar cu&aacute;ndo est&aacute; activa tu audiencia.</span>
+          </li>
+          <li>
+            <strong>Usar 3-5 hashtags relevantes y espec&iacute;ficos.</strong>
+            <span class="tip">Ej: #NewMusic #IndieMusic #HIRAKU. Evitar hashtags gen&eacute;ricos como #music o #love.</span>
+          </li>
+          <li>
+            <strong>Agregar texto en pantalla al clip (t&iacute;tulo del tema, fecha de salida).</strong>
+            <span class="tip">Muchos usuarios ven Reels sin sonido. El texto asegura que el mensaje llegue.</span>
+          </li>
+          <li>
+            <strong>Incluir un CTA claro en el caption: "Pre-save en el link de la bio".</strong>
+            <span class="tip">Configurar un link en bio (Linktree, etc.) que lleve al pre-save de Spotify.</span>
+          </li>
+          <li>
+            <strong>Compartir cada Reel en Stories con sticker de cuenta regresiva.</strong>
+            <span class="tip">El sticker de countdown permite que los seguidores activen recordatorios para la fecha de lanzamiento.</span>
+          </li>
+          <li>
+            <strong>Interactuar con cada comentario en las primeras 2 horas.</strong>
+            <span class="tip">El engagement temprano le indica al algoritmo que el contenido es relevante.</span>
+          </li>
+          <li>
+            <strong>Subir tambi&eacute;n a TikTok si tienen cuenta.</strong>
+            <span class="tip">El mismo clip vertical funciona en ambas plataformas. Duplicar alcance con m&iacute;nimo esfuerzo.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <!-- FASE 2: PRE-RELEASE -->
+      <div class="phase">
+        <div class="phase-header">
+          <div>
+            <div class="phase-number">02</div>
+          </div>
+          <div>
+            <div class="phase-title">Pre-Release &mdash; Spotify</div>
+            <div class="phase-date">1-2 semanas antes del lanzamiento</div>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li>
+            <strong>Subir los temas a tu distribuidor (DistroKid, TuneCore, CD Baby, etc.) con al menos 2 semanas de anticipaci&oacute;n.</strong>
+            <span class="tip">Esto es obligatorio para poder hacer pitch a playlists editoriales de Spotify.</span>
+          </li>
+          <li>
+            <strong>Hacer pitch a Spotify for Artists para playlists editoriales.</strong>
+            <span class="tip">Desde el dashboard de Spotify for Artists &gt; Music &gt; Upcoming. Describir el g&eacute;nero, mood, instrumentaci&oacute;n y historia del tema.</span>
+          </li>
+          <li>
+            <strong>Configurar un Canvas (video loop de 3-8 seg) para cada tema.</strong>
+            <span class="tip">Los temas con Canvas tienen hasta 5% m&aacute;s de streams. Se configura desde Spotify for Artists.</span>
+          </li>
+          <li>
+            <strong>Activar el pre-save en Spotify y compartir el link.</strong>
+            <span class="tip">Usar herramientas como DistroKid HyperFollow o similar para generar la landing de pre-save.</span>
+          </li>
+          <li>
+            <strong>Asegurar que el perfil de Spotify est&eacute; completo: bio, foto, header, links a redes.</strong>
+            <span class="tip">Un perfil profesional genera m&aacute;s confianza y m&aacute;s follows.</span>
+          </li>
+          <li>
+            <strong>Elegir un Artist Pick: destacar el release pr&oacute;ximo en el perfil.</strong>
+            <span class="tip">Aparece como banner en la parte superior de tu perfil de Spotify.</span>
+          </li>
+          <li>
+            <strong>Contactar playlists independientes (curators) del g&eacute;nero.</strong>
+            <span class="tip">Buscar curators en SubmitHub, PlaylistPush, o contactarlos directo por Instagram/Twitter.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <!-- FASE 3: LAUNCH DAY -->
+      <div class="phase">
+        <div class="phase-header">
+          <div>
+            <div class="phase-number">03</div>
+          </div>
+          <div>
+            <div class="phase-title">D&iacute;a de Lanzamiento</div>
+            <div class="phase-date">23 de abril, 2026</div>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li>
+            <strong>Publicar a las 00:00 del viernes (los releases de Spotify salen los viernes).</strong>
+            <span class="tip">Configurar la fecha de release en el distribuidor para que coincida con el Release Radar del viernes.</span>
+          </li>
+          <li>
+            <strong>Postear en todas las redes apenas salga: Instagram, Stories, TikTok, Twitter.</strong>
+            <span class="tip">Incluir el link directo a Spotify. Las primeras 24 horas son cr&iacute;ticas para el algoritmo.</span>
+          </li>
+          <li>
+            <strong>Pedir a amigos, familia y fans que escuchen y guarden el tema (no solo play, tambi&eacute;n save).</strong>
+            <span class="tip">Los "saves" pesan m&aacute;s que los plays para el algoritmo de Spotify. Un save = se&ntilde;al de que el tema es valioso.</span>
+          </li>
+          <li>
+            <strong>Actualizar esta web con los links de Spotify embebidos.</strong>
+            <span class="tip">Reemplazar o complementar los clips con los Spotify embeds una vez que los temas est&eacute;n live.</span>
+          </li>
+          <li>
+            <strong>Compartir la historia detr&aacute;s de cada tema.</strong>
+            <span class="tip">Los posts que cuentan la historia personal del tema generan m&aacute;s conexi&oacute;n y engagement.</span>
+          </li>
+          <li>
+            <strong>Enviar el release a blogs y medios de m&uacute;sica independiente.</strong>
+            <span class="tip">Preparar un press kit b&aacute;sico: bio, fotos HD, links, y una descripci&oacute;n del proyecto.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <!-- FASE 4: POST-RELEASE -->
+      <div class="phase">
+        <div class="phase-header">
+          <div>
+            <div class="phase-number">04</div>
+          </div>
+          <div>
+            <div class="phase-title">Post-Release &mdash; Mantener el impulso</div>
+            <div class="phase-date">Semanas posteriores</div>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li>
+            <strong>Seguir publicando contenido relacionado: behind the scenes, letras, reacciones.</strong>
+            <span class="tip">No desaparecer despu&eacute;s del d&iacute;a 1. El algoritmo favorece la consistencia.</span>
+          </li>
+          <li>
+            <strong>Revisar Spotify for Artists: de d&oacute;nde vienen los oyentes, qu&eacute; playlists los agregaron.</strong>
+            <span class="tip">Estos datos informan la estrategia para los pr&oacute;ximos releases.</span>
+          </li>
+          <li>
+            <strong>Agradecer p&uacute;blicamente a quienes compartan o comenten.</strong>
+            <span class="tip">Repostear stories de fans y crear comunidad alrededor del proyecto.</span>
+          </li>
+          <li>
+            <strong>Considerar hacer un livestream/IG Live tocando los temas.</strong>
+            <span class="tip">El contenido en vivo genera cercan&iacute;a y puede atraer nuevos oyentes.</span>
+          </li>
+        </ul>
+      </div>
+
+    </section>
   </main>
 
   <footer>
